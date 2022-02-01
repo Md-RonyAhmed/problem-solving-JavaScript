@@ -1,9 +1,9 @@
 // find factorial
 const getFactorial = (num) => {
-  factorial = 1;
+  let factorial = 1;
   for (let i = 1; i <= num; i++){
     factorial *= i;
   }
   return factorial;
 }
-console.log(getFactorial(3));
+console.log(getFactorial(5));
