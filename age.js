@@ -4,6 +4,6 @@ const calculateAge = (num) => {
   } else {
     return `The age: ${num} is an odd number.`;
   }
-}
+};
 console.log(calculateAge(23));
 console.log(calculateAge(26));
